@@ -1,0 +1,113 @@
+html {
+    background-color: lightyellow;
+}
+
+nav {
+    border-bottom: 1px solid #293F14;
+}
+
+.web-nav {
+    font-family: 'Times New Roman', Times, serif;
+    color: #293F14;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.web-nav a::after {
+    display: inline-block;
+    color: #293F14;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.header {
+    color: #31D843;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body-text {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-me-picture {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 60%;
+}
+
+.about-me {
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+}
+
+form {
+    background-color: #3EFF8B;
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea, button {
+    background-color: lightyellow;
+}
+
+#firstName, #lastName, #comments {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#yes-or-no, #yes-or-no-label {
+    position: relative;
+    left: 22%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+#firstName-label, #lastName-label, #comments-label {
+    position: relative;
+    left: 32%
+}
+
+.buttonHolder {
+    text-align: center;
+}
+
+.website-list {
+    font-size: 25px;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 15px;
+}
+
+.food-picture {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: solid 5px black;
+    height: 200px;
+    width: 200px;
+}
+
+.food-label {
+    position: relative;
+    left: 40%;
+    font-size: 25px;
+}
+
+.rangoon-label {
+    position: relative;
+    left: 33%;
+    font-size: 25px;
+}
